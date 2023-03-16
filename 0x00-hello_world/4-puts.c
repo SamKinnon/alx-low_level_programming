@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * First program
- * main: a Function which mandatory
+ * main - a Function which mandatory
  * Return: 0 (Success)
  */
 int main(void)
