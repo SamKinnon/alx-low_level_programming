@@ -2,10 +2,10 @@
 
 /**
  * _memset - function
+ * Return: Always s
  * @s: pointed destination
  * @b: constant
  * @n: bytes to fill
- * Return: always s 
  */
 
 char *_memset(char *s, char b, unsigned int n)
