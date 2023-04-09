@@ -7,7 +7,14 @@
  * @argv: array of aerguments
  * Return: aluways 0
  */
-int main (int argc__attribute__((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
+
 {
+
 	printf("%s\n", *argv);
+
+
+
 	return (0);
+
+}
