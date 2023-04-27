@@ -5,5 +5,5 @@ main:
 	xor eax, eax
 	call prinft
 	mov eax, 0
-	ret 
+	ret
 format:db `Hello, Holberton\n`,0
