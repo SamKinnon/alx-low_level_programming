@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - function
  * @head: double pointer
  * @index: integer
- * @Return: -1 1
+ * Return: -1 and 1
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
