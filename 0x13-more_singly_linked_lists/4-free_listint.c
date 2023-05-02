@@ -3,6 +3,8 @@
 #include "lists.h"
 
 /**
+ * free_listint - function to free linked list
+ * @head: pointer
  */
 
 void free_listint(listint_t *head)
