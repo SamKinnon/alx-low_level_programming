@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - function that returns nth of node of a list
+ * get_nodeint_at_index - function return nth of node of a list
  * @head: pointer
  * @index: index of the node, starting at 0
+ * Return:temp or NULL
  */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
