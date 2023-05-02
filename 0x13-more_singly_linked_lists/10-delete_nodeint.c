@@ -1,6 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
+ * delete_nodeint_at_index - function
+ * @head: double pointer
+ * @index: integer
+ * @Return: -1 1
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
