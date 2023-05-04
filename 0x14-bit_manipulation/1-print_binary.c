@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ * print_binary - return binary 
+ * @n: input
  */
 void print_binary(unsigned long int n)
 {
