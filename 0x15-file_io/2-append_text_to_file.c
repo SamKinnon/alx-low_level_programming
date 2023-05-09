@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * append_text_to_file - function
+ * @filename: used in creation of file name
+ * @text_content: contents
+ * Return: 0 or one
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
@@ -12,9 +16,10 @@ int append_text_to_file(const char *filename, char *text_content)
 		for (len = 0; text_content[len];)
 			len++;
 	}
-	openfile = open(filename, O-WRONLY | O-APPEND);
+	openfile = open(filename, O_WRONLY | O_APPEND);
 	writefile = write(openfile, text_content, len);
 	if (openfile == -1 || writefile == -1)
 		return (-1);
 	close(openfile);
 	return (1);
+}
